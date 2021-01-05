@@ -1,2 +1,3 @@
-1. how i exit from git bash when i enter only commit.
-	using :q! type in terminl without saving and code you can exit.
+question
+2. how to create txt file using git bash and push into repo.
+ 
