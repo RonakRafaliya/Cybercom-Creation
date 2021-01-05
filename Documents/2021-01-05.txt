@@ -1,0 +1,2 @@
+1. how i exit from git bash when i enter only commit.
+	using :q! type in terminl without saving and code you can exit.
