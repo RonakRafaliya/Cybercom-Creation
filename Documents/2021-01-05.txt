@@ -1,3 +1,9 @@
-question
-2. how to create txt file using git bash and push into repo.
- 
+----------------- Git & Github ---------------
+
+: make our daily progress using repositories and Hierachy.
+: serach about new command about git bash.
+: and try some commnads to make this repositories.
+
+end of the day.
+
+thank you :( 
