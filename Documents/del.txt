@@ -1,0 +1,42 @@
+---------- git & github -------------
+
+1.use & meaning of checkout  command.
+	:- switch in between different version of targeted branches in repository.
+	:- work on three different different entity 1.branches 2.commit 3.file.
+
+2.git commit -a
+	:- all the file are transfer into the working directory for commit.
+
+3.delete local branch in git bash.
+	:- use command $ git branch -d <branchname>
+	:- you can not delete the branch on you are working.
+
+4.point releted to delete local and remote branches.
+	:- there in no any connection in between each other.
+	:- If you want any branch item to be deleted you need to delete it individual.
+
+5.how to restore file from remote server to pc.
+	:- using $ git restore <filename> command.
+
+6.show our all branches graph.
+	:- using command $ git log --graph.
+	:- you can use pretty word and aslo use color so your output in very attractive form. ex. $ git log --graph --pretty="%C(blue) %s"
+
+7.if $ git push origin master command donot work than you can use $ git push origin maste --force but it will considered dangerous.only use --force option if you knwo what are doing.
+
+8.also knwo about merge and revert.
+	:- which is helpful to us to go back like undo operation.
+
+9.one also command is restore which resotre your file from the remote server.
+
+### Questions:- ###
+
+1.how merge both different file contant in a same branch  ?
+
+
+*End of the Day*
+
+Thank You :(
+
+
+
