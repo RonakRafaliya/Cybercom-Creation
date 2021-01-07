@@ -1,0 +1,78 @@
+----------- git & github -------------
+
+1. difference between $git revert and $git reset.
+	:- both are used to undo changes earlier commit command in your repository.
+	:- when you use revert command the changes in between two commits undone, then new commit created which contain code in your repoafter the changes have been undone.
+		it wil not changes the previous history of your poject.so developer can manage the accurate records of all the changes made in project.
+	:- when you use reset commnad that removes all the commits from your repo and it will give the reverts repo back.
+
+2. use revert keyword very different different level. and try so many times.
+
+3. how sjow command use and how we can fetch our history in git bash
+ 
+ *following is little bit explaination about how it work.*
+
+Ronak Rafaliya@RonsRafaliya MINGW64 ~/Desktop/Practice (master)
+$ git show f66272a8b2a8654dc2d75327da1f3912d55e2dbe                        // it will show what done on perticular commit with the help of commit number.
+commit f66272a8b2a8654dc2d75327da1f3912d55e2dbe
+Author: Ronak <Ronakrafaliya14@gmail.com>
+Date:   Thu Jan 7 13:40:53 2021 +0530
+
+    all clear
+
+diff --git a/2021-01-06.txt b/2021-01-06.txt
+deleted file mode 100644
+index 3648aa8..0000000
+--- a/2021-01-06.txt
++++ /dev/null
+@@ -1,42 +0,0 @@
+----------- git & github -------------
+-
+-1.use & meaning of checkout  command.
+-       :- switch in between different version of targeted branches in repository.
+-       :- work on three different different entity 1.branches 2.commit 3.file.
+-
+-2.git commit -a
+-       :- all the file are transfer into the working directory for commit.
+-
+-3.delete local branch in git bash.
+-       :- use command $ git branch -d <branchname>
+-       :- you can not delete the branch on you are working.
+-
+-4.point releted to delete local and remote branches.
+-       :- there in no any connection in between each other.
+-       :- If you want any branch item to be deleted you need to delete it individual.
+-
+-5.how to restore file from remote server to pc.
+-       :- using $ git restore <filename> command.
+-
+
+
+Ronak Rafaliya@RonsRafaliya MINGW64 ~/Desktop/Practice (master)
+$
+
+Ronak Rafaliya@RonsRafaliya MINGW64 ~/Desktop/Practice (master)
+$ git push origin master
+Everything up-to-date
+
+Ronak Rafaliya@RonsRafaliya MINGW64 ~/Desktop/Practice (master)
+$ git show --name-only f66272a8b2a8654dc2d75327da1f3912d55e2dbe
+commit f66272a8b2a8654dc2d75327da1f3912d55e2dbe
+Author: Ronak <Ronakrafaliya14@gmail.com>
+Date:   Thu Jan 7 13:40:53 2021 +0530
+
+    all clear
+
+2021-01-06.txt
+index.py
+ronak.php
+
+Ronak Rafaliya@RonsRafaliya MINGW64 ~/Desktop/Practice (master)
+$ git show f66272a8b2a8654dc2d75327da1f3912d55e2dbe > abc.patch //it will creata a file in your pc what done on this commit number in the details.
+
+Ronak Rafaliya@RonsRafaliya MINGW64 ~/Desktop/Practice (master)
+$
+
+ ** END OF THE DAY **
+
+# Thank You :)
