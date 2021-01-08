@@ -1,3 +1,106 @@
+Task 1 :-
+
+*Html File:-
+<!DOCTYPE html>
+
+<html>
+    <head><title>Html pagae</title></head>
+    
+    <link rel="stylesheet" href="Style.css">
+
+    <body>
+        <div class="row">
+            <div class="merge">  
+                <div class="column">
+                    <h2>215*315px</h2>
+                </div>
+                <div id="img"><h3>Image caption here</h3></div>
+                
+            </div>
+            <div class="merge">  
+                <div class="column">
+                    <h2>215*315px</h2> 
+                </div>
+                <div id="img"><h3>Image caption here</h3></div>
+            </div>
+            <div class="merge">  
+                <div class="column">
+                    <h2>215*315px</h2>
+                </div>
+                <div id="img"><h3>Image caption here</h3></div>
+            </div>
+            <div class="merge">  
+                <div class="column">
+                    <h2>215*315px</h2>
+                </div>
+                <div id="img"><h3>Image caption here</h3></div>
+            </div>
+        </div>
+        <div class="contant">
+            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+        </div>
+    </body>
+</html>
+
+*CSS File :-
+
+
+
+* {
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    background-color: black;
+    width: 215px;
+    height: 315px;
+    border-style: solid;
+    margin-right: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.merge{
+    margin-left: 10px;
+}
+
+#img{
+    height: 30px;
+    width: 215px;
+    background-color: cornflowerblue;
+    margin-top: 5px;
+    justify-content: center;
+
+}
+h3{
+    text-align: center;
+    margin-top: 2px;
+}
+
+h2{
+    text-align: center;
+    color: dimgrey;
+}
+
+.contant{
+    width: 70%;
+    margin-left: 230px;
+    margin-top: 25px;
+    padding: 5px;
+    border-style: solid;
+}
+p{
+    text-align: center;
+}
+	
+
+
 Task 2 :- JAVASCRIPT (Find mark and john BMI)
 
 *Html FILE :-
