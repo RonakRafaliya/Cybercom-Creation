@@ -1,0 +1,28 @@
+---------------- Html & JS -----------------
+
+1 diff. between block level & inline element. 
+	:- block level ele. take full available width. and its start in new line always
+		*ex. div,hr, main, form tag etc....
+	:-inline level ele. takes only necessary width only. and does not start with new line.
+		*ex. span, lable, storng tag etc...
+
+2.if else condition.
+	:- three way to use if else statement.one kind of condition based executation of the code whether condition is true or false.
+		*if..
+		*if..else
+		*IF..else if
+3.boolean logic.
+	:-it represent two value.
+		*true *false.
+	:-Js have boolean data type.it take only two above value.
+
+4.Ternery & switch Operator.
+	:-syntax (Condition ? true: false)
+	:-in switch case used to perform different action on different actions.
+
+5.Truthy & falsy values & equality Operators.
+	:-falsy value: undefined, nul, 0, '', Nan.
+	:-Truthe value:Not falsy values.
+
+6.learn about array and hoe to declare array and than different types of array operation.
+	:-and major the length of the array and learn so many method like push(),Shift(),arr.length().
