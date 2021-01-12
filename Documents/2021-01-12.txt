@@ -1,0 +1,41 @@
+1.how java sript code run behind the machine.
+	:-our code goes into parser and it read our code line by line and check the all syntax.it means parser know all the rule about javascript like how to right code in this.
+	:-after that it will creat a one syntaxt tree if all are syntax wise correct else it will give error.
+	:-and then it will converted to machine code which is understand by computer.
+	:-and our code is run and work very well.
+
+2.Excutation Contax.
+	:-the default excution contax is global excutation contax.
+	:-how exccutecode using stack concept. and how to function called and how it store in a stack ad how thay pop up ans so on.
+
+3.Hoisting.
+	:-its default behavior of moving all the declaration to the top of current scope like current script or current function
+
+4.Scoping and scoping chain.
+	:-the defalut scope is a global scope.
+	:-global scope can't acces the its parent scop untill the function returning that perticular value.
+
+5.execution chain and scoping chain is totally inversaly propsational to each other.
+
+6. this keyword.
+	:-in regular function call this keyword is used to point a global object.
+	:-used for method call also.
+	IMP :- this keyword not assign value untill the actual function is call.
+	:-this variable is refer to the currect object.
+	:-use console.log(this) it gives you window object that means the default object is window object.
+
+7.mathod bowwing topic.
+	:-none other than when we use method which is exist in other object and other function so with the help of the below syntax
+		object.method name = object2(method exist in that object).method name
+
+8.object and properties.
+	:-learn how to creat object ans also its properties. and with the help of new keyword you can make blank object.
+
+9.learn about condition statement like if & if..else. and also learn loop like for loop and while loop. 
+
+10.learn abour different version of javascript and difference between java & javscript.
+
+
+QUESTATION :-
+
+1.Variable Object.
