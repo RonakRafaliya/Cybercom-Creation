@@ -1,0 +1,30 @@
+-------- JS -----------
+
+1.Object and function.
+	:-primitives is like one kind of data types and other else is everything is an object.
+	:- object is nothing but the real time entity.
+	:-we can do so many complex operation with the help of object.
+	:-used to store data and also clean the code and also structure the application.
+
+2.Object Orianted programming language:-
+	:- we can make a so many instances with the help of the constructor.
+	:- inheritance is nothing but the one object is based on another object.means one obejct can acees the property of the another object like its based object.
+
+3.New operator.
+	:-The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+	:- syntax be like : var mycar = new Car('Eagle', 'Talon TSi', 1993);
+	:- another use of new keyword is used to create an empty object.
+
+4.prototype method.
+	:- All javascript objects inherit propertiesand method from prototype.
+
+5.primitives datatype & Objects.
+	:-number,string,boolean,undefined,null.
+	:-Everything else is objects.
+	:-Primitivs contain all the data inside the variable itself.
+
+6.function is an instance of the object type.
+
+7.first function.
+	:-JavaScript treats functions as objects and allow us to pass functions as parameter to another function and even return functions from other functions. 
+	:-In JavaScript the functions are first class functions meaning we can store them in variable, objects and array.
