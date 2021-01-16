@@ -1,0 +1,36 @@
+------------- JS ---------------
+
+1.Anonumous function.
+	:- is nothing but the function without name its called ...
+	:- we can use this function as a arguments in other function.
+
+2.IIFI(Immediately Invoked function expression).
+	:-that means this function is directly excute after it declare.
+	:-syntax is    (function (){
+				//code;
+`			})();
+	:-its called self invoking function.
+
+3.call method.
+	:-with the help of call method you can borrow a other object method.and used like invoke(call) a methodwith an owner object as an arguments(parameter).
+
+4.bind method.
+	:-the bind() creates a new function, when invoked.
+	:-the bind method allow an object to bowrrow a method from another object withour making a copy of that method, its known as a function borrowing in javascript.
+	:-used to set some pre fix argument.
+
+5.let,const,var keyword difference.
+	:-var can change after its assign like var is mutable 
+	:-let,const are immutable means thay both are can't change after it assign.
+	:-let & const both have a block scoping.
+	:-var have a function scoping.
+
+6.learn and difference between ES5 And ES6.
+
+7.in the ES6 string can be handled with the help of `this is ${variable name}. also he/she wants to ${variable2 name}`;
+
+
+
+End Of The Day...
+
+Thank You :)	
