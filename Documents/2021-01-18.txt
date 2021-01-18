@@ -1,0 +1,29 @@
+---------------- JS ---------------
+
+1.map function.
+	:-The map() method creates a new array with the results of calling a function for every array element.
+	:-The map() method calls the provided function once for each element in an array, in order.
+	:-it does not execute the function for array without value.
+	:-this method does not change the original array.
+
+2.lexical this keyword.
+	:-it means thay it shares the global this keyword.
+
+3.Include method.
+	:-when we dont know to the perfect class name and after that we want to accees that class with some letter which are include in the class name at thay time include methos are used.
+	:-syntax is classname.include('some word contain in the class name').
+
+4.Array.
+	:-new array methods are added in ES6 like Array.from(),findIndex(),find().
+	:-Array.from():-It converts array-like values and iterable values into arrays.
+	:-Array.findIndex():-The Array.findIndex() returns the index of the first element of the given array that satisfies the given condition.
+	:-Array.find():-It finds a value from an array, based on the specific criteria that are passed to this method.
+
+5.Arrow function.
+	:-it's main use is allow us to writer short function syntax.
+		hello = () => { //code here. }
+	
+
+End Of The Day...
+
+Thank You :)	
