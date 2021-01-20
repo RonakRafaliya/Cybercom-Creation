@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display page</title>
+    <style>
+        #table{
+            display: block;
+            margin-top: 30px;   
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        div{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div id="table"></div>
+    <script>
+        let mytable = document.querySelector('#table');
+        var arrresult = JSON.parse(localStorage.getItem('array'));
+        
+        let headers = ['name','email','DOB'];
+
+        let table = document.createElement('table');
+        let headerrow = document.createElement('tr');
+
+        headers.forEach(headertext => {
+            let header = document.createElement('th');
+            let textnode = document.createTextNode(headertext);
+            header.appendChild(textnode);
+            headerrow.appendChild(header);
+        });
+
+        table.appendChild(headerrow);
+
+        arrresult.forEach(emp => {
+        let row = document.createElement('tr');
+            Object.values(emp).forEach(text =>{
+                let cell = document.createElement('td');
+                let textnode = document.createTextNode(text);
+                cell.appendChild(textnode);
+                row.appendChild(cell);
+            })
+            table.append(row);
+        });
+
+        mytable.appendChild(table);
+    </script>
+</body>
+</html>
