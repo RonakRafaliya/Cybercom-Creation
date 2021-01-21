@@ -16,19 +16,19 @@ function validData() {
 
             var temp = array[index];
 
-            if (temp.email == email && temp.password == password) 
+            if (array[index].email == email && array[index].password == password) 
             {
                 hasMatch = true;
                 break;
             }
         }
-        if(hasMatch == false)
+        if(hasMatch === false)
         {
-            hasMatch = false;
             alert("Invalid Email & Password....");
         }
-        else
+        else if(hasMatch  === true)
         {
+            alert("Sucessfully login...")
             window.location.href = "dashboard.html";
         }
         
