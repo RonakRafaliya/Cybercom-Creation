@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration Page</title>
 
-    <script src="\JS\registration.js"></script>
+    
     <link rel="stylesheet" href="\Style\login.css">
 </head>
 <body>
     <div class="register">
         <h1>Registration</h1>
 
-        <form id="regform" method="GET">
-            <input type="text" id="rname" placeholder="Name" size="30" required><br>
-            <input type="email" id="remail" placeholder="Email" size="30" required><br>
-            <input type="password" id="rpassword" placeholder="Password" size="30" required><br>
-            <input type="password" id="rconpassword" placeholder="Conform Password" size="30" required><br>
-            <select required>
+        <form id="regform" action="login.html" method="GET">
+            <input type="text" id="name" placeholder="Name" size="30" required><br>
+            <input type="email" id="email" placeholder="Email" size="30" required><br>
+            <input type="password" id="password" placeholder="Password" size="30" required><br>
+            <input type="password" id="conpassword" placeholder="Conform Password" size="30" required><br>
+            <select>
                 <option value="city" selected disabled hidden>Select City</option>
                 <option value="city1">Mumbai</option>
                 <option value="city2">Junagadh</option>
             </select><br>
-            <select required>
+            <select>
                 <option value="none" selected disabled hidden>Select State</option>
                 <option value="state">Maharashtra</option>
                 <option value="state">Guajarat</option>
@@ -31,10 +31,10 @@
             <input type="checkbox" id="term" name="terms" required>
             <label for="terms">Terms & Conditions</label><br>
 
-            <input type="submit" id="btnregister" value="Register" style="width: 230px;" onclick="validation()">
+            <input type="submit" id="btnregister" value="Register" style="width: 230px;" onclick="adminRegister()">
         </form>
 
-        
+        <script src="\JS\registration.js"></script>    
     </div>
 </body>
 </html>
