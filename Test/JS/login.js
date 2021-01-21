@@ -1,5 +1,6 @@
 var array = [];
 hasMatch = false;
+var temp;
 
 function validData() {
     var email = document.getElementById('email').value;
@@ -9,30 +10,29 @@ function validData() {
         array = JSON.parse(localStorage.getItem('array'));
     }
 
-    checkLogindata();
-
     function checkLogindata() {
-        for (var index = 0; index < array.length; ++index) {
-
-            var temp = array[index];
-
+        for (var index = 0; index < array.length; ++index) 
+        {
             if (array[index].email == email && array[index].password == password) 
             {
                 hasMatch = true;
                 break;
             }
         }
-        if(hasMatch === false)
-        {
-            alert("Invalid Email & Password....");
-        }
-        else if(hasMatch  === true)
-        {
-            alert("Sucessfully login...")
-            window.location.href = "dashboard.html";
-        }
+    }
+    checkLogindata();
+    
+    if(hasMatch === true)
+    {   debugger
+        alert("Sucessfully login...")
+        //sessionStorage.setItem("name", temp.name);
+        window.location.href = "dashboard.html";
         
     }
-    
+    else
+    {
+        alert("Invalid Email & Password....");
+    }
+        
 
 };

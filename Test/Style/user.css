@@ -43,41 +43,32 @@ body {
     font-size: 20px;  
 }
 
-.align
-{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    
+.formdata{
+    margin-left: 202px;
+    padding: 42px 20px;
 }
-.box-1
-{
-    background-color: #f9cb9c;
-    max-height: 100px;
-    max-width: 200px;
-    padding: 60px;
+form{
+    padding: 20px;
 }
-.box-2
-{
-    background-color: #b4a7d6;
-    max-height: 100px;
-    max-width: 200px;
-    margin-left: 100px;
-    padding: 60px;
+input[type=submit]{
+    margin-top: 10px;
+    margin-left: 581px;
 }
-.box-3
-{
-    background-color: #f4cccc;
-    max-height: 100px;
-    max-width: 200px;
-    margin-left: 100px;
-    padding: 60px;
+input[type=text]{
+    padding: 2px;
 }
-
+input[type=email]{
+    padding: 2px;
+}
+input[type=password]{
+    padding: 2px;
+}
 .table-data2{
     border: 1px;
     margin-left: 202px;
-    border: 2px solid black;
     padding: 10px;
     
+}
+h1{
+    margin-left: 202px;
 }

@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> User Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="\Style\user.css">
+<script src="\JS\user.js"></script>
 </head>
 <body>
-    
+
+<div class="sidenav">
+    <div class="heading"> Hello, </div>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="User.html">Users</a>
+  <a href="usersession.html">Login Session</a>
+  <a onclick="logout()" href="login.html">Logout</a>
+</div>
+
+<div class="formdata">
+    <form>
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="password">
+        <input type="date" name="dob" id="dob" placeholder="Birth Date"><br>
+        <input type="submit" id="btnadduser" onclick="userAdd()" value="Add User">
+    </form>
+</div>
+
+
+<h1>User List</h1>
+
+<script type="text/javascript">
+   
+    document.write('<table border="5" cellspacing = "0" class="table-data2" id="table-user">');
+    document.write('<thread>');
+    document.write('<th>Name</th>');
+    document.write('<th>Email</th>');
+    document.write('<th>Password</th>');
+    document.write('<th>Birthdate</th>');
+    document.write('<th>Age</th>');
+    document.write('<th colspan="2">Actions</th>');
+
+    document.write('</thread>');
+    document.write('<tbody>');
+    document.write('<tr>');
+                
+    var array = JSON.parse(localStorage.getItem('user'));
+                            
+    for(var k = 0 ; k < array.length ; k++)
+    {	
+        document.write('<td>'+ array[k].name + '</td>' );
+        document.write('<td>'+ array[k].email + '</td>' );
+        document.write('<td>'+ array[k].password + '</td>' );
+        document.write('<td>'+ array[k].dob + '</td>' );
+        document.write('<td>'+ array[k].Age + '</td>' );
+        document.write('<td><a href="#">Edit</a> &nbsp;&nbsp; <a href="#">Delete</a></td>' );
+
+        document.write('</tr>');
+    }
+                    
+    document.write('</tbody></table>');	
+</script>
+<script src="\JS\user.js"></script>
+            
+<script>
+    document.getElementById("name").innerHTML = "Hello " + sessionStorage.getItem("name");
+</script>   
 </body>
-</html>
+</html> 
