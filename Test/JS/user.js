@@ -1,5 +1,6 @@
 function logout() {
     sessionStorage.clear();
+    window.localStorage.clear();
     window.location.href = "Login.html";
 }
 

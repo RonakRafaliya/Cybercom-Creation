@@ -23,9 +23,9 @@ function validData() {
     checkLogindata();
     
     if(hasMatch === true)
-    {   debugger
-        alert("Sucessfully login...")
-        //sessionStorage.setItem("name", temp.name);
+    {  
+        alert("Sucessfully login...");
+        sessionStorage.setItem("name", temp.name);
         window.location.href = "dashboard.html";
         
     }

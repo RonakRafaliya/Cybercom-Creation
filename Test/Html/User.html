@@ -29,6 +29,8 @@
 <h1>User List</h1>
 
 <script type="text/javascript">
+
+    
    
     document.write('<table border="5" cellspacing = "0" class="table-data2" id="table-user">');
     document.write('<thread>');
@@ -52,12 +54,15 @@
         document.write('<td>'+ array[k].password + '</td>' );
         document.write('<td>'+ array[k].dob + '</td>' );
         document.write('<td>'+ array[k].Age + '</td>' );
-        document.write('<td><a href="#">Edit</a> &nbsp;&nbsp; <a href="#">Delete</a></td>' );
+        document.write('<td><a onclick="editDetails()" href="user.html">Edit</a> &nbsp;&nbsp; <a onclick="deleteData()" href="user.html">Delete</a></td>' );
 
         document.write('</tr>');
     }
+
                     
-    document.write('</tbody></table>');	
+    document.write('</tbody></table>');
+    
+    
 </script>
 <script src="\JS\user.js"></script>
             
