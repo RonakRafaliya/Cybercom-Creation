@@ -22,14 +22,14 @@ function validData() {
                 break;
             }
         }
-        if(hasMatch == true)
+        if(hasMatch == false)
         {
-            alert("Login successfull...");
-            window.location.href = "dashboard.html";
+            hasMatch = false;
+            alert("Invalid Email & Password....");
         }
-        else if(hasMatch == false)
+        else
         {
-            alert("Email & password Invalid...");
+            window.location.href = "dashboard.html";
         }
         
     }
