@@ -1,0 +1,13 @@
+-------------- PHP ----------
+
+1.php stands for hypertext preprocessor.
+2.php is a server side scripting language.
+3.php INI file.
+	:-it's default configuaration file for running application that require php.
+	:-it is used to control some action regarding to doing in a php file. like upload sizes, file timeout and resource limits.
+4.echo.
+	:-echo is a language construct it's not a function.it allow you to output on a screen into the browser.
+5.print.
+	:-it also used for display data as an output on the browser scree.
+6.the main difference in between echo and print is thay echo has no return value while print return value of 1 that's why print is used in a expression.
+7.echo can take multiple parameter while print can take only one argument.
