@@ -1,0 +1,77 @@
+----------------- PHP -----------
+
+1.die and exit method.
+	:-die function work here like a break statement.
+	:-with the help of this we can give a erroe message to the user screen.
+2.expressionmatching.
+	:-preg_match is used for match a perticular string word in a one sentence.
+3.function creating.
+
+CODE:
+    $a = 'Ronak';
+
+    function MyName($a)  // function creation.
+    {
+        # code...
+        echo "My name is $a.";
+    }
+    MyName($a); //call funcition.
+    
+    pass int number.
+    $a = 10; 
+    $b = 20;
+
+    function calculate($a,$b){
+        $result = $a + $b;
+        return $result;
+    }
+    calculate($a,$b);
+
+
+    **--> pass string as parameter to the funcaion.
+
+    function displayDate($day, $date, $year){
+        echo "$day $date $year.";
+    }
+    displayDate('Monday',14,1998);
+
+
+    *--> function with return value.
+    
+    echo "The result is ",calculate(10,10) / calculate(5,5); //refer upper function.
+
+    
+    *--> global variable ad use in function.
+
+    $user_ip = $_SERVER['REMOTE_ADDR']; //method to get user ip address who currently viewing your website.
+    echo 'user ip address '.$user_ip;
+
+    function ip_add(){
+        global $user_ip;
+        echo "Your ip address is $user_ip.";
+    }
+    ip_add();
+
+4.various string methods.
+
+code with example:
+
+    $str_word_count($string,1);                                       //return how many word.
+    $string_word_count2 = str_word_count($string,2);                  //return position number by letter
+    $string_word_count3 = str_word_count($string,1,"an");             //an is perticular word.
+    $string_word_count4 = str_word_count($string,2,"an");
+
+5.strinf shuffle.
+	:-str_shuffle($string); // shuffled the string.
+
+6.find substring.
+	:-substr($string_shuffled , 0, 10); //we can divid the string in the perticular position.
+
+7.find reverse string.
+	:- strrev($string);
+
+8.similarity in the two string.
+	:-similar_text($string_one,$string_two, $result); //it will give the smimilarity in between two string in percentage.
+
+9.add and remove slashes in the sentences.
+	:-htmlentities(addslashes($string_slashes)); //add backslash in front of predefine characters.   //also one methtos is stripslash which is remove backslashes added by addslash.
