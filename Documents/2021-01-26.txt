@@ -1,0 +1,51 @@
+-------------------- PHP ---------------
+
+1.array.
+	:-we can declare array as a $food = array('pasta','panipuri','bhel','pizza');
+	:-find array element with the help of $length = count($food);
+
+2.Associative array.
+	:-the array in the array like individual elements has it's own information its called associative array.
+	:-the declaration of array is $food = array('pasta'=>300,'panipuri'=>200,'bhel'=>500,'pizza'=>150);
+
+3.multi-diamansion array.
+	:-array inside array it's called multi-dia. array.
+	:-the syntax of this array is $food = array('healthy'=>
+                        					array('salad','vegetable','pasta'),
+                					'unhealthy'=>
+                        					array('panipuri','Ice cream'));
+
+4.for each statement.
+	:-we can use this statement with two various syntaxes differed based on the iteration behavior for getting array elements
+
+5.include and require function.
+	:-both are used to embbaded th file into other file like when all the file have some common code like headaer,  menu, footer at that time we can use incule and require function.
+	:-when we use include it will give warning when the file is not found and script exectation is continue.
+	:-when we use require it will give a fatal error when the file is not found and script executation stop.
+
+6.include and require once.
+	:-the syntax of this both are require_once(); ame work as require function.but the diff is that it will check first if this file already exist then it will only embadded once.
+	:-include_once();  same as require_once function.
+
+7.string Methods.
+	:- $length = count($string); count is user for gatting number of elements in array object.
+	:- $len  = strlen($string);  gatting number of characters in a string.
+	:- $srt_lower = strtolower($string); to lower case.
+	:- $str_upper = strtoupper($string); to uppercase.
+	:-string position.
+    		strpos(string,what word,offset(where to start))
+	:-replace substring.
+		substr_replace(string,replacement,start,length)
+	:-string replace with some word
+		str_replace(looking for,what you replace);
+	
+8.some new function like isset and GET.
+	:-if(isset($_GET['username']) && !empty($_GET['username'])){ (isset) is checks whether a variable is set, which means it has to be declares and is not NULL.
+	     $username = $_GET['username'];  (_GET) is used to get vakue from form using GET method.
+
+
+
+
+END OF THE DAY :)......
+
+*** THANK YOU ***
