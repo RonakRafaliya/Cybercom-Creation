@@ -1,0 +1,47 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+caption{
+    text-decoration: solid;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: yellow;
+    color: blue;
+    border: 2px blue outset;
+}
+table{
+    margin-top: 10px;
+    background-color:skyblue;
+    color: tomato;
+}
+tr,td{
+    padding: 10px;
+
+}
+.data{
+    width: 350px;
+}
+.warn{
+    color:blue;
+}
+input[type=submit]{
+	width: 100px;
+	height: 30px;
+	background-color: green;
+    color: #fff;
+    border-style: inset;
+    outline: none;
+}
+input[type=reset]{
+	width: 100px;
+	height: 30px;
+	background-color: red;
+    color: #fff;
+    margin-right: 10px;
+    border-style: inset;
+    outline: none;
+}   
