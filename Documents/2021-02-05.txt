@@ -1,0 +1,37 @@
+************** PHP Session  ***********
+
+1. The most commonly used SQL command is SELECT statement. 
+2. It is used to query the database and retrieve selected data that follow the conditions we want.
+	
+	> [WHERE Clause] : It specifies which rows to retrieve.
+	> [GROUP BY Clause] : Groups rows that share a property so that the aggregate function can be applied to each group.
+	> [HAVING Clause] : It selects among the groups defined by the GROUP BY clause.
+	> [ORDER BY Clause] : It specifies an order in which to return the rows.
+
+3. The SQL DISTINCT command is used with SELECT key word to retrieve only distinct or unique data.
+
+4. The SQL COUNT() function is used to return the number of rows in a query.
+
+5. Right join like when we use right join the tables so it will affect on the right side of the row table.
+
+6. left join like when we use left join the tables so it will affect on the right side of the row table.
+
+7. distinct value like it will not allow to duplicate valu in the table.
+
+8. search with like keyword it will help to retrive as you want to in a syntax form.
+
+*********PHP DATABASE CONNECTION*********
+1. connection
+2. Insert data with insert query
+3. Select data in registration and login with session and cookie.
+4. search some inbuilt function releted to the mysqli_query.like
+	:- mysqli_result - it will return a data from one cell from MYSQL result set.
+	:- mysqli_num_row - it will return the affected row when we fire any qury to the database.
+	:- mysql_real_escape_string — Escapes special characters in a string for use in an SQL statement.
+5.http_refer.
+	:-it will return the path whcih we came from. in a string form
+6.sql injuction.
+	:-SQL injection is a code injection technique that might destroy your database.
+	:-SQL injection is one of the most common web hacking techniques.
+	:-SQL injection is the placement of malicious code in SQL statements, via web page input.
+
