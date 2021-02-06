@@ -1,0 +1,56 @@
+------------ PHP -------------
+
+1. learn OOP concept.
+
+2.class.
+	:-class is structure in which we can declare any kind of variable and method and also declare function.
+
+3.object.
+	:-with the help of that we can acess the properties of he class and in a simle language object is instance of a class
+	:-we can create a multiple object of a same class.
+
+5.try,catch,throw and exception.
+	:-exception is nothing but the any error occure in a flow of a any programme it's called a exception.
+	:-with the help of catch block we can handle it and must a check function in a try block.
+	:-with the help of throw we can throw a exception.
+
+6.we can also create a custom exception and also create a custom erroe handling fucntion.
+
+7.self keyword is point to the static member of a class and this keyword is point to the non-static keyword of a class.
+
+8.connection database using oop concept.
+	:-example is below.
+
+EX.
+class DatabaseConnect
+{
+    public function __construct($mysql_host, $mysql_user, $mysql_pass)
+    {
+        if(!@$this->connect($mysql_host,$mysql_user,$mysql_pass))
+        {
+            echo 'connection faild..';
+        }
+        else if($this->connect($mysql_host,$mysql_user,$mysql_pass))
+        {
+            echo 'connected to '.$mysql_host;
+        }
+    }
+    public function connect($mysql_host, $mysql_user, $mysql_pass)
+    {
+        if(!mysqli_connect($mysql_host, $mysql_user, $mysql_pass))
+        {
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+    }
+}
+
+$connection = new DatabaseConnect('localhost','root','');
+
+
+END OF THE DAY.....
+
+THANK YOU.....:)
